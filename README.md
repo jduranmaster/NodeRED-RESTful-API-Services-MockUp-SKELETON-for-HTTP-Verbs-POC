@@ -2,7 +2,7 @@
 
 NodeRED RESTful API Services MockUp SKELETON for HTTP Verbs
 
-![Title](./images/title.jpg)
+![Title](./_images/title.jpg)
 
 This project was developed as a POC in order to demonstrate the utility of Node-RED to make RESTful Services.
 
