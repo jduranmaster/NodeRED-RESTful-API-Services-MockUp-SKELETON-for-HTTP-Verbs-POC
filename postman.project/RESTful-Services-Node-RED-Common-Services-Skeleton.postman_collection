@@ -1,0 +1,976 @@
+{
+	"variables": [],
+	"info": {
+		"name": "RESTful Services {Node-RED} - Common Services Skeleton",
+		"_postman_id": "08bf52e2-cb5f-ff39-489e-92b0d03eb6c6",
+		"description": "RESTful Services {Node-RED} - Common Services Skeleton",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "{ERROR 400 - Bad Request} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZsssdddISBAN-01",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": "{ERROR 400 - Bad Request} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 404 - Not Found} http://localhost:1880/api_resource/1234404",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234404",
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZsssdddISBAN-01",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": "{ERROR 404 - Bad Request} http://localhost:1880/api_resource/1234404"
+			},
+			"response": []
+		},
+		{
+			"name": "{200 OK} http://localhost:1880/api_resource/1234999",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234999",
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZsssdddISBAN-01",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": "{200 OK} http://localhost:1880/api_resource/1234999"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 403 - Forbidden (blank)} http://localhost:1880/api_resource/1234787",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234787",
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": "{ERROR 403 - Forbidden (blank)} http://localhost:1880/api_resource/1234787"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 403 - Forbidden (NULL)} http://localhost:1880/api_resource/1234787",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234787",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": "{ERROR 403 - Forbidden (NULL)} http://localhost:1880/api_resource/1234787"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 401 - Not Authorized (blank)} http://localhost:1880/api_resource/1234787",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234787",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZ33091-ISBAN-id09",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": "{ERROR 401 - Not Authorized (blank)} http://localhost:1880/api_resource/1234787"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 401 - Not Authorized (NULL)} http://localhost:1880/api_resource/1234787",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234787",
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZ33091-ISBAN-id09",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": "{ERROR 401 - Not Authorized (NULL)} http://localhost:1880/api_resource/1234787"
+			},
+			"response": []
+		},
+		{
+			"name": "{200 OK }http://localhost:1880/api_resource/",
+			"request": {
+				"url": "http://localhost:1880/api_resource/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZsdarpa-ISBAN-id-09",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"Hello!\"\n}"
+				},
+				"description": "{200 OK }http://localhost:1880/api_resource/"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 404 - Forbidden (blank) }http://localhost:1880/api_resource/",
+			"request": {
+				"url": "http://localhost:1880/api_resource/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZsdarpa-ISBAN-id-09",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"\"\n}"
+				},
+				"description": "{ERROR 404 - Forbidden (blank) }http://localhost:1880/api_resource/"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 400 - Bad Request (NULL) }http://localhost:1880/api_resource/",
+			"request": {
+				"url": "http://localhost:1880/api_resource/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZsdarpa-ISBAN-id-09",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "{ERROR 400 - Bad Request (NULL) }http://localhost:1880/api_resource/"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 403 - Forbidden (blank) }http://localhost:1880/api_resource/",
+			"request": {
+				"url": "http://localhost:1880/api_resource/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\" : \"Hello!\"\n}"
+				},
+				"description": "{ERROR 403 - Forbidden (blank) }http://localhost:1880/api_resource/"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 403 - Forbidden (NULL) }http://localhost:1880/api_resource/",
+			"request": {
+				"url": "http://localhost:1880/api_resource/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\" : \"Hello!\"\n}"
+				},
+				"description": "{ERROR 403 - Forbidden (NULL) }http://localhost:1880/api_resource/"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 401 - Not Authorized (blank) }http://localhost:1880/api_resource/",
+			"request": {
+				"url": "http://localhost:1880/api_resource/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-isban-id-10",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\" : \"Hello!\"\n}"
+				},
+				"description": "{ERROR 401 - Not Authorized (blank) }http://localhost:1880/api_resource/"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 401 - Not Authorized (NULL) }http://localhost:1880/api_resource/",
+			"request": {
+				"url": "http://localhost:1880/api_resource/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-isban-id-10",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\" : \"Hello!\"\n}"
+				},
+				"description": "{ERROR 401 - Not Authorized (NULL) }http://localhost:1880/api_resource/"
+			},
+			"response": []
+		},
+		{
+			"name": "{200 OK }http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"Hello!\"\n}"
+				},
+				"description": "{200 OK }http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 404 - Not Found (JSON blank)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"\"\n}"
+				},
+				"description": "{ERROR 404 - Not Found (JSON blank)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 404 - Not Found (JSON NULL)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "{ERROR 404 - Not Found (JSON NULL)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 401 - Not Authorized (blank)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "{ERROR 401 - Not Authorized (blank)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 401 - Not Authorized (NULL)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "{ERROR 401 - Not Authorized (NULL)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 403 - Forbidden (blank)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"Hello!\"\n}"
+				},
+				"description": "{ERROR 401 - Not Authorized (blank)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 403 - Forbidden (NULL)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"Hello!\"\n}"
+				},
+				"description": "{ERROR 403 - Forbidden (NULL)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{200 OK }http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"Hello!\"\n}"
+				},
+				"description": "{200 OK }http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 404 - Not Found (JSON blank)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"\"\n}"
+				},
+				"description": "{ERROR 404 - Not Found (JSON blank)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 404 - Not Found (JSON NULL)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "{ERROR 404 - Not Found (JSON NULL)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 401 - Not Authorized (blank)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "{ERROR 401 - Not Authorized (blank)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 401 - Not Authorized (NULL)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "{ERROR 401 - Not Authorized (NULL)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 403 - Forbidden (blank)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"Hello!\"\n}"
+				},
+				"description": "{ERROR 401 - Not Authorized (blank)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 403 - Forbidden (NULL)} http://localhost:1880/api_resource/1234400",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"Hello!\"\n}"
+				},
+				"description": "{ERROR 403 - Forbidden (NULL)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{200 OK} http://localhost:1880/api_resource/1234400 copy",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234409",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "{200 OK }http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 403 - Forbidden (blank)} http://localhost:1880/api_resource/1234409",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234409",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"Hello!\"\n}"
+				},
+				"description": "{ERROR 401 - Not Authorized (blank)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 403 - Forbidden (NULL)} http://localhost:1880/api_resource/1234409",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"Hello!\"\n}"
+				},
+				"description": "{ERROR 403 - Forbidden (NULL)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 401 - Not Authorized (blank)} http://localhost:1880/api_resource/1234409",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "{ERROR 401 - Not Authorized (blank)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 401 - Not Authorized (NULL)} http://localhost:1880/api_resource/1234409",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234400",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "{ERROR 401 - Not Authorized (NULL)} http://localhost:1880/api_resource/1234400"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 404 - Not Found} http://localhost:1880/api_resource/1234404",
+			"request": {
+				"url": "http://localhost:1880/api_resource/1234404",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"Hello!\"\n}"
+				},
+				"description": "{ERROR 404 - Not Found} http://localhost:1880/api_resource/1234404"
+			},
+			"response": []
+		},
+		{
+			"name": "{ERROR 400 - Bad Request} http://localhost:1880/api_resource/1234408",
+			"request": {
+				"url": "http://localhost:1880/api_resource/",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-IBM-Client-ID",
+						"value": "xZZdarpa-ISBAN-id-19",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer AAEkZGNmM2RhMmUtYjNmMy00YmJkLTg4YjAtOGIyZGVkYjViNGYwN5e3YYjLow9jwFDrYeKGfIvAUWnUfzZyYFB80bc0ChaHsiT4dtT2g5QSuRqMSj32N3VLKWv-vM13SPKuq2YZuYZChV_fNyyafBYWG0ZBBXI",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"inputData\": \"Hello!\"\n}"
+				},
+				"description": "{ERROR 400 - Bad Request} http://localhost:1880/api_resource/1234408"
+			},
+			"response": []
+		}
+	]
+}
