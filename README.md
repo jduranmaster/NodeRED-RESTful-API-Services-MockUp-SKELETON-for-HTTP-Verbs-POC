@@ -15,7 +15,9 @@ a POSTMAN project to test all the RESTful API operations defined in Node-RED.
 Finally, use the following commands if you don´t have installed Node-RED in Node.JS.
 
 npm install express --save
+
 npm install cors --save
+
 npm install body-parser --save
 
 npm install -g node-red
